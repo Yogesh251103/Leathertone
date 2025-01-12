@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.logoWrapper{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo1{
+    width: 80px;
+    height: 80px;
+}
+
+.logo2{
+    width: 150px;
+    height: 60px;
+}
+
+.linkWrapper > * + * {
+    margin-left: 20px;
+}

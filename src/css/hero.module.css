@@ -1,0 +1,33 @@
+.parent{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/public/leathertone.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading{
+    font-size:8rem;
+    color: azure;
+    font-weight: 700;
+}
+
+.sub{
+    font-size: xx-large;
+    color: azure;
+    font-weight: 500;
+}
+
+.btn{
+    padding: 20px;
+    background: azure;
+    color: #422E26;
+    border: none;
+    font-size: large;
+    position: absolute;
+    bottom: 10%;
+    cursor: pointer;
+}
