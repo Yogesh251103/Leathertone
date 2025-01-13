@@ -1,3 +1,7 @@
+:root{
+    --brown:#422E26
+}
+
 .parent{
     display: flex;
     height: 100vh;
@@ -17,7 +21,7 @@
 
 .title{
     font-size: 5rem;
-    color: #422E26;
+    color: var(--brown);
 }
 
 .sub{
@@ -28,10 +32,11 @@
 .btn{
     margin-top: 8rem;
     padding: 25px;
-    background:#422E26;
+    background:var(--brown);
     color: white;
     border: none;
     font-weight: 600;
     font-size: large;
     width: fit-content;
+    cursor: pointer;
 }

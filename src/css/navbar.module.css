@@ -1,3 +1,7 @@
+:root{
+    --brown:#422E26
+}
+
 .container{
     display: flex;
     position: fixed;
@@ -26,4 +30,13 @@
 
 .linkWrapper > * + * {
     margin-left: 20px;
+}
+
+.onScroll {
+    background-color: white;
+    transition: all 0.2s linear;
+}
+
+.onScroll .linkWrapper a {
+    color: var(--brown); 
 }
