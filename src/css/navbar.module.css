@@ -35,6 +35,7 @@
 .onScroll {
     background-color: white;
     transition: all 0.2s linear;
+    z-index: 2000;
 }
 
 .onScroll .linkWrapper a {

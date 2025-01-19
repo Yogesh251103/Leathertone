@@ -1,9 +1,8 @@
 import styles from "../css/service.module.css";
-import { Carousel } from "antd";
 
 export const Partners = () => {
   return (
-    <div className={styles.parent}>
+    <div className={styles.parent} id="partners-section">
       <div className={styles.leftContainer}>
         <h1 className={styles.title}>Our Partners</h1>
         <p className={styles.sub}>

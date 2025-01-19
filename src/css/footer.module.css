@@ -1,0 +1,35 @@
+:root {
+  --brown: #422e26;
+}
+
+.parent {
+    margin-top: 4rem;
+  width: 100%;
+  border-top: 0.1rem solid var(--brown);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.logoWrapper {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 20rem;
+  margin-bottom: 10px;
+}
+
+.logo1 {
+  margin-left: -20px;
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftContainer > * + * {
+  margin-bottom: 20px;
+}

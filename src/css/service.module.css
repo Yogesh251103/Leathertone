@@ -1,42 +1,56 @@
-:root{
-    --brown:#422E26
+:root {
+  --brown: #422e26;
 }
 
-.parent{
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    background: white;
-    padding-top: 8rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    justify-content: space-between;
+.parent {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background: white;
+  padding-top: 8rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  justify-content: space-between;
+  /* background: red; */
 }
 
-.leftContainer{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
+.leftContainer {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
 }
 
-.title{
-    font-size: 5rem;
-    color: var(--brown);
+.rightContainer {
+  width: 60%;
 }
 
-.sub{
-    font-size: 1.5rem;
-    padding-top: 3.5rem;
+.title {
+  font-size: 5rem;
+  font-weight: 600;
+  color: var(--brown);
 }
 
-.btn{
-    margin-top: 8rem;
-    padding: 25px;
-    background:var(--brown);
-    color: white;
-    border: none;
-    font-weight: 600;
-    font-size: large;
-    width: fit-content;
-    cursor: pointer;
+.sub {
+  font-size: 1.5rem;
+  padding-top: 3.5rem;
+}
+
+.btn {
+  margin-top: 8rem;
+  padding: 25px;
+  background: var(--brown);
+  color: white;
+  border: none;
+  font-weight: 600;
+  font-size: large;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.carousel {
+  width: 50%;
+  height: 100%; 
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: hidden;
 }
