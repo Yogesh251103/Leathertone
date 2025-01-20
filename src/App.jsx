@@ -1,6 +1,6 @@
 import Footer from "./components/Footer";
 import { Navbar } from "./components/Navbar";
-import  Hero  from "./section/Hero";
+import Hero from "./section/Hero";
 import { Services } from "./section/Services";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
-      <Footer/>
+      <Footer />
     </>
   );
 }

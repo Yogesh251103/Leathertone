@@ -13,6 +13,5 @@ html{
 a{
   text-decoration: none;
   color: azure;
-  font-size: large;
+  font-size: clamp(0.75rem, 1vw + 0.75rem, 1.125rem);
 }
-
